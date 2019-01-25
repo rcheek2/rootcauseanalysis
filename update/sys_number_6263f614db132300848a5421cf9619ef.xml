@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="INSERT_OR_UPDATE">
+        <category display_value="" name="x_307499_root_caus_root_cause_analysis">x_307499_root_caus_root_cause_analysis</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>ROO</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>rcheek2</sys_created_by>
+        <sys_created_on>2019-01-25 15:42:33</sys_created_on>
+        <sys_id>6263f614db132300848a5421cf9619ef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ROO</sys_name>
+        <sys_package display_value="Root Cause Analysis" source="x_307499_root_caus">b2b23ad0db132300848a5421cf961923</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Root Cause Analysis">b2b23ad0db132300848a5421cf961923</sys_scope>
+        <sys_update_name>sys_number_6263f614db132300848a5421cf9619ef</sys_update_name>
+        <sys_updated_by>rcheek2</sys_updated_by>
+        <sys_updated_on>2019-01-25 15:42:33</sys_updated_on>
+    </sys_number>
+</record_update>

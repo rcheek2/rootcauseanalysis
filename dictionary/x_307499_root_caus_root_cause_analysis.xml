@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="Root Cause Analysis" max_length="40" name="x_307499_root_caus_root_cause_analysis" type="collection">
+        <element label="Issue Name" max_length="100" name="u_issue_name" type="string"/>
+        <element label="Parent Incident" max_length="32" name="u_parent_incident" read_only="true" reference="incident" type="reference"/>
+        <element label="Solution" max_length="5000" name="u_solution" type="string"/>
+        <element label="Steps to reproduce" max_length="5000" name="u_steps_to_reproduce" type="string"/>
+    </element>
+</database>

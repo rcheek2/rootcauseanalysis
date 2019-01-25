@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="c29afe98db132300848a5421cf961902" sys_domain="global" table="x_307499_root_caus_root_cause_analysis" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>rcheek2</sys_created_by>
+            <sys_created_on>2019-01-25 16:13:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4a9afe98db132300848a5421cf961904</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_307499_root_caus_root_cause_analysis" name="x_307499_root_caus_root_cause_analysis" sys_domain="global" view="Default view">c29afe98db132300848a5421cf961902</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_307499_root_caus_root_cause_analysis" sys_domain="global" view="Default view">a145b294db132300848a5421cf96190c</sys_ui_section>
+            <sys_updated_by>rcheek2</sys_updated_by>
+            <sys_updated_on>2019-01-25 16:13:56</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>rcheek2</sys_created_by>
+            <sys_created_on>2019-01-25 16:14:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>47ba32d8db132300848a5421cf96194e</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_307499_root_caus_root_cause_analysis" name="x_307499_root_caus_root_cause_analysis" sys_domain="global" view="Default view">c29afe98db132300848a5421cf961902</sys_ui_form>
+            <sys_ui_section caption="Root Cause Information" display_value="Root Cause Information" name="x_307499_root_caus_root_cause_analysis" sys_domain="global" view="Default view">83ba32d8db132300848a5421cf961949</sys_ui_section>
+            <sys_updated_by>rcheek2</sys_updated_by>
+            <sys_updated_on>2019-01-25 16:14:33</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>rcheek2</sys_created_by>
+            <sys_created_on>2019-01-25 16:13:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>469afe98db132300848a5421cf961905</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_307499_root_caus_root_cause_analysis" name="x_307499_root_caus_root_cause_analysis" sys_domain="global" view="Default view">c29afe98db132300848a5421cf961902</sys_ui_form>
+            <sys_ui_section caption="Root Cause Closure" display_value="Root Cause Closure" name="x_307499_root_caus_root_cause_analysis" sys_domain="global" view="Default view">429afe98db132300848a5421cf961901</sys_ui_section>
+            <sys_updated_by>rcheek2</sys_updated_by>
+            <sys_updated_on>2019-01-25 16:14:33</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_307499_root_caus_root_cause_analysis</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>rcheek2</sys_created_by>
+            <sys_created_on>2019-01-25 16:13:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c29afe98db132300848a5421cf961902</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_307499_root_caus_root_cause_analysis</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Root Cause Analysis" source="x_307499_root_caus">b2b23ad0db132300848a5421cf961923</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Root Cause Analysis">b2b23ad0db132300848a5421cf961923</sys_scope>
+            <sys_update_name>sys_ui_form_sections_c29afe98db132300848a5421cf961902</sys_update_name>
+            <sys_updated_by>rcheek2</sys_updated_by>
+            <sys_updated_on>2019-01-25 16:13:56</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>
