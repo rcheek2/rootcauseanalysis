@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="state" table="x_307499_root_caus_root_cause_analysis" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Open</label>
+            <language>en</language>
+            <name>x_307499_root_caus_root_cause_analysis</name>
+            <sequence>10</sequence>
+            <sys_created_by>rcheek2</sys_created_by>
+            <sys_created_on>2019-01-25 16:17:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4b6b7ad8db132300848a5421cf9619db</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rcheek2</sys_updated_by>
+            <sys_updated_on>2019-01-25 16:17:57</sys_updated_on>
+            <value>open</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>In Process</label>
+            <language>en</language>
+            <name>x_307499_root_caus_root_cause_analysis</name>
+            <sequence>20</sequence>
+            <sys_created_by>rcheek2</sys_created_by>
+            <sys_created_on>2019-01-25 16:18:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>399bbad8db132300848a5421cf9619b7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rcheek2</sys_updated_by>
+            <sys_updated_on>2019-01-25 16:18:17</sys_updated_on>
+            <value>in_process</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Resolved</label>
+            <language>en</language>
+            <name>x_307499_root_caus_root_cause_analysis</name>
+            <sequence>30</sequence>
+            <sys_created_by>rcheek2</sys_created_by>
+            <sys_created_on>2019-01-25 16:18:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d1ab36d8db132300848a5421cf9619bb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rcheek2</sys_updated_by>
+            <sys_updated_on>2019-01-25 16:18:31</sys_updated_on>
+            <value>resolved</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <name>x_307499_root_caus_root_cause_analysis</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>rcheek2</sys_created_by>
+            <sys_created_on>2019-01-25 16:17:57</sys_created_on>
+            <sys_id>018b7ad8db132300848a5421cf9619e0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>state</sys_name>
+            <sys_package display_value="Root Cause Analysis" source="x_307499_root_caus">b2b23ad0db132300848a5421cf961923</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Root Cause Analysis">b2b23ad0db132300848a5421cf961923</sys_scope>
+            <sys_update_name>sys_choice_x_307499_root_caus_root_cause_analysis_state</sys_update_name>
+            <sys_updated_by>rcheek2</sys_updated_by>
+            <sys_updated_on>2019-01-25 16:17:57</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

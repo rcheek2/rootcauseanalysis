@@ -4,13 +4,13 @@
             <element>number</element>
             <position>0</position>
             <sys_created_by>rcheek2</sys_created_by>
-            <sys_created_on>2019-01-25 16:14:33</sys_created_on>
-            <sys_id>c3ba32d8db132300848a5421cf9619ff</sys_id>
+            <sys_created_on>2019-01-25 16:21:44</sys_created_on>
+            <sys_id>146cb61cdb132300848a5421cf9619c2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_307499_root_caus_root_cause_analysis" sys_domain="global" view="Default view">a145b294db132300848a5421cf96190c</sys_ui_section>
             <sys_updated_by>rcheek2</sys_updated_by>
-            <sys_updated_on>2019-01-25 16:14:33</sys_updated_on>
+            <sys_updated_on>2019-01-25 16:21:44</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>assigned_to</element>
             <position>1</position>
             <sys_created_by>rcheek2</sys_created_by>
-            <sys_created_on>2019-01-25 16:14:33</sys_created_on>
-            <sys_id>47ba32d8db132300848a5421cf9619ff</sys_id>
+            <sys_created_on>2019-01-25 16:21:44</sys_created_on>
+            <sys_id>946cb61cdb132300848a5421cf9619c2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_307499_root_caus_root_cause_analysis" sys_domain="global" view="Default view">a145b294db132300848a5421cf96190c</sys_ui_section>
             <sys_updated_by>rcheek2</sys_updated_by>
-            <sys_updated_on>2019-01-25 16:14:33</sys_updated_on>
+            <sys_updated_on>2019-01-25 16:21:44</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,111 +32,69 @@
             <element>assignment_group</element>
             <position>2</position>
             <sys_created_by>rcheek2</sys_created_by>
-            <sys_created_on>2019-01-25 16:14:33</sys_created_on>
-            <sys_id>c7ba32d8db132300848a5421cf9619ff</sys_id>
+            <sys_created_on>2019-01-25 16:21:44</sys_created_on>
+            <sys_id>186cb61cdb132300848a5421cf9619c2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_307499_root_caus_root_cause_analysis" sys_domain="global" view="Default view">a145b294db132300848a5421cf96190c</sys_ui_section>
             <sys_updated_by>rcheek2</sys_updated_by>
-            <sys_updated_on>2019-01-25 16:14:33</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>cmdb_ci</element>
-            <position>3</position>
-            <sys_created_by>rcheek2</sys_created_by>
-            <sys_created_on>2019-01-25 16:14:33</sys_created_on>
-            <sys_id>4bba32d8db132300848a5421cf9619ff</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_307499_root_caus_root_cause_analysis" sys_domain="global" view="Default view">a145b294db132300848a5421cf96190c</sys_ui_section>
-            <sys_updated_by>rcheek2</sys_updated_by>
-            <sys_updated_on>2019-01-25 16:14:33</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>business_service</element>
-            <position>4</position>
-            <sys_created_by>rcheek2</sys_created_by>
-            <sys_created_on>2019-01-25 16:14:33</sys_created_on>
-            <sys_id>cbba32d8db132300848a5421cf9619ff</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_307499_root_caus_root_cause_analysis" sys_domain="global" view="Default view">a145b294db132300848a5421cf96190c</sys_ui_section>
-            <sys_updated_by>rcheek2</sys_updated_by>
-            <sys_updated_on>2019-01-25 16:14:33</sys_updated_on>
+            <sys_updated_on>2019-01-25 16:21:44</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>5</position>
+            <position>3</position>
             <sys_created_by>rcheek2</sys_created_by>
-            <sys_created_on>2019-01-25 16:14:33</sys_created_on>
-            <sys_id>4fba32d8db132300848a5421cf9619ff</sys_id>
+            <sys_created_on>2019-01-25 16:21:44</sys_created_on>
+            <sys_id>986cb61cdb132300848a5421cf9619c2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_307499_root_caus_root_cause_analysis" sys_domain="global" view="Default view">a145b294db132300848a5421cf96190c</sys_ui_section>
             <sys_updated_by>rcheek2</sys_updated_by>
-            <sys_updated_on>2019-01-25 16:14:33</sys_updated_on>
+            <sys_updated_on>2019-01-25 16:21:44</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_parent_incident</element>
-            <position>6</position>
+            <position>4</position>
             <sys_created_by>rcheek2</sys_created_by>
-            <sys_created_on>2019-01-25 16:14:33</sys_created_on>
-            <sys_id>cfba32d8db132300848a5421cf9619ff</sys_id>
+            <sys_created_on>2019-01-25 16:21:44</sys_created_on>
+            <sys_id>1c6cb61cdb132300848a5421cf9619c2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_307499_root_caus_root_cause_analysis" sys_domain="global" view="Default view">a145b294db132300848a5421cf96190c</sys_ui_section>
             <sys_updated_by>rcheek2</sys_updated_by>
-            <sys_updated_on>2019-01-25 16:14:33</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>priority</element>
-            <position>7</position>
-            <sys_created_by>rcheek2</sys_created_by>
-            <sys_created_on>2019-01-25 16:14:33</sys_created_on>
-            <sys_id>43ba72d8db132300848a5421cf961900</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_307499_root_caus_root_cause_analysis" sys_domain="global" view="Default view">a145b294db132300848a5421cf96190c</sys_ui_section>
-            <sys_updated_by>rcheek2</sys_updated_by>
-            <sys_updated_on>2019-01-25 16:14:33</sys_updated_on>
+            <sys_updated_on>2019-01-25 16:21:44</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>state</element>
-            <position>8</position>
+            <position>5</position>
             <sys_created_by>rcheek2</sys_created_by>
-            <sys_created_on>2019-01-25 16:14:33</sys_created_on>
-            <sys_id>c3ba72d8db132300848a5421cf961900</sys_id>
+            <sys_created_on>2019-01-25 16:21:44</sys_created_on>
+            <sys_id>9c6cb61cdb132300848a5421cf9619c2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_307499_root_caus_root_cause_analysis" sys_domain="global" view="Default view">a145b294db132300848a5421cf96190c</sys_ui_section>
             <sys_updated_by>rcheek2</sys_updated_by>
-            <sys_updated_on>2019-01-25 16:14:33</sys_updated_on>
+            <sys_updated_on>2019-01-25 16:21:44</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>active</element>
-            <position>9</position>
+            <element>u_initial_caller</element>
+            <position>6</position>
             <sys_created_by>rcheek2</sys_created_by>
-            <sys_created_on>2019-01-25 16:14:33</sys_created_on>
-            <sys_id>47ba72d8db132300848a5421cf961900</sys_id>
+            <sys_created_on>2019-01-25 16:24:51</sys_created_on>
+            <sys_id>461dfe1cdb132300848a5421cf961907</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_307499_root_caus_root_cause_analysis" sys_domain="global" view="Default view">a145b294db132300848a5421cf96190c</sys_ui_section>
             <sys_updated_by>rcheek2</sys_updated_by>
-            <sys_updated_on>2019-01-25 16:14:33</sys_updated_on>
+            <sys_updated_on>2019-01-25 16:24:51</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

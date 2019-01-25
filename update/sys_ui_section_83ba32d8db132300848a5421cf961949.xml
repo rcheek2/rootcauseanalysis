@@ -4,41 +4,83 @@
             <element>short_description</element>
             <position>0</position>
             <sys_created_by>rcheek2</sys_created_by>
-            <sys_created_on>2019-01-25 16:14:33</sys_created_on>
-            <sys_id>0fba72d8db132300848a5421cf961906</sys_id>
+            <sys_created_on>2019-01-25 16:28:13</sys_created_on>
+            <sys_id>57ddfa5cdb132300848a5421cf96192f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Root Cause Information" display_value="Root Cause Information" name="x_307499_root_caus_root_cause_analysis" sys_domain="global" view="Default view">83ba32d8db132300848a5421cf961949</sys_ui_section>
             <sys_updated_by>rcheek2</sys_updated_by>
-            <sys_updated_on>2019-01-25 16:14:33</sys_updated_on>
+            <sys_updated_on>2019-01-25 16:28:13</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>business_service</element>
+            <position>1</position>
+            <sys_created_by>rcheek2</sys_created_by>
+            <sys_created_on>2019-01-25 16:28:13</sys_created_on>
+            <sys_id>dbddfa5cdb132300848a5421cf96192f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Root Cause Information" display_value="Root Cause Information" name="x_307499_root_caus_root_cause_analysis" sys_domain="global" view="Default view">83ba32d8db132300848a5421cf961949</sys_ui_section>
+            <sys_updated_by>rcheek2</sys_updated_by>
+            <sys_updated_on>2019-01-25 16:28:13</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>cmdb_ci</element>
+            <position>2</position>
+            <sys_created_by>rcheek2</sys_created_by>
+            <sys_created_on>2019-01-25 16:28:13</sys_created_on>
+            <sys_id>5fddfa5cdb132300848a5421cf96192f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Root Cause Information" display_value="Root Cause Information" name="x_307499_root_caus_root_cause_analysis" sys_domain="global" view="Default view">83ba32d8db132300848a5421cf961949</sys_ui_section>
+            <sys_updated_by>rcheek2</sys_updated_by>
+            <sys_updated_on>2019-01-25 16:28:13</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_incident_resolution</element>
+            <position>3</position>
+            <sys_created_by>rcheek2</sys_created_by>
+            <sys_created_on>2019-01-25 16:28:13</sys_created_on>
+            <sys_id>dfddfa5cdb132300848a5421cf96192f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Root Cause Information" display_value="Root Cause Information" name="x_307499_root_caus_root_cause_analysis" sys_domain="global" view="Default view">83ba32d8db132300848a5421cf961949</sys_ui_section>
+            <sys_updated_by>rcheek2</sys_updated_by>
+            <sys_updated_on>2019-01-25 16:28:13</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>description</element>
-            <position>1</position>
+            <position>4</position>
             <sys_created_by>rcheek2</sys_created_by>
-            <sys_created_on>2019-01-25 16:14:33</sys_created_on>
-            <sys_id>8fba72d8db132300848a5421cf961906</sys_id>
+            <sys_created_on>2019-01-25 16:28:13</sys_created_on>
+            <sys_id>53ddfa5cdb132300848a5421cf961930</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Root Cause Information" display_value="Root Cause Information" name="x_307499_root_caus_root_cause_analysis" sys_domain="global" view="Default view">83ba32d8db132300848a5421cf961949</sys_ui_section>
             <sys_updated_by>rcheek2</sys_updated_by>
-            <sys_updated_on>2019-01-25 16:14:33</sys_updated_on>
+            <sys_updated_on>2019-01-25 16:28:13</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>work_notes</element>
-            <position>2</position>
+            <position>5</position>
             <sys_created_by>rcheek2</sys_created_by>
-            <sys_created_on>2019-01-25 16:14:33</sys_created_on>
-            <sys_id>03ba72d8db132300848a5421cf961907</sys_id>
+            <sys_created_on>2019-01-25 16:28:13</sys_created_on>
+            <sys_id>d3ddfa5cdb132300848a5421cf961930</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Root Cause Information" display_value="Root Cause Information" name="x_307499_root_caus_root_cause_analysis" sys_domain="global" view="Default view">83ba32d8db132300848a5421cf961949</sys_ui_section>
             <sys_updated_by>rcheek2</sys_updated_by>
-            <sys_updated_on>2019-01-25 16:14:33</sys_updated_on>
+            <sys_updated_on>2019-01-25 16:28:13</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
