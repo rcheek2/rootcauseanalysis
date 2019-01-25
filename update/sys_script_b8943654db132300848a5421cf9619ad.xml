@@ -34,13 +34,14 @@
 	
 	// Add your code here
 	gs.addInfoMessage('RCA Ran');
+	gs.addErrorMessage('Assigned to ' + getDisplayValue(current.assigned_to));
 	var gr = new GlideRecord('x_307499_root_caus_root_cause_analysis');
 	gr.initialize();
 	gr.short_description = "Root Cause Analysis created from " + current.number + ".";
 	gr.description = current.description;
 	gr.cmdb_ci = current.getValue('cmdb_ci');
 	gr.business_service = current.getValue('business_service');
-	gr.assinged_to = current.assinged_to;
+	//gr.setValue('assinged_to', current.assinged_to.sys_id);
 	gr.assingment_group = current.assignment_group;
 	gr.work_notes = current.work_notes;
 	gr.u_initial_caller = current.caller_id;
@@ -56,7 +57,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>b8943654db132300848a5421cf9619ad</sys_id>
-        <sys_mod_count>17</sys_mod_count>
+        <sys_mod_count>21</sys_mod_count>
         <sys_name>Migrate to RCA Task after Resolve</sys_name>
         <sys_overrides/>
         <sys_package display_value="Root Cause Analysis" source="x_307499_root_caus">b2b23ad0db132300848a5421cf961923</sys_package>
@@ -64,7 +65,7 @@
         <sys_scope display_value="Root Cause Analysis">b2b23ad0db132300848a5421cf961923</sys_scope>
         <sys_update_name>sys_script_b8943654db132300848a5421cf9619ad</sys_update_name>
         <sys_updated_by>rcheek2</sys_updated_by>
-        <sys_updated_on>2019-01-25 16:47:45</sys_updated_on>
+        <sys_updated_on>2019-01-25 16:59:03</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>

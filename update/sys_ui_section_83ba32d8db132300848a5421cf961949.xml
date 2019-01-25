@@ -4,13 +4,13 @@
             <element>short_description</element>
             <position>0</position>
             <sys_created_by>rcheek2</sys_created_by>
-            <sys_created_on>2019-01-25 16:28:13</sys_created_on>
-            <sys_id>57ddfa5cdb132300848a5421cf96192f</sys_id>
+            <sys_created_on>2019-01-25 16:51:48</sys_created_on>
+            <sys_id>2c430390db532300848a5421cf961966</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Root Cause Information" display_value="Root Cause Information" name="x_307499_root_caus_root_cause_analysis" sys_domain="global" view="Default view">83ba32d8db132300848a5421cf961949</sys_ui_section>
             <sys_updated_by>rcheek2</sys_updated_by>
-            <sys_updated_on>2019-01-25 16:28:13</sys_updated_on>
+            <sys_updated_on>2019-01-25 16:51:48</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>business_service</element>
             <position>1</position>
             <sys_created_by>rcheek2</sys_created_by>
-            <sys_created_on>2019-01-25 16:28:13</sys_created_on>
-            <sys_id>dbddfa5cdb132300848a5421cf96192f</sys_id>
+            <sys_created_on>2019-01-25 16:51:48</sys_created_on>
+            <sys_id>a0430390db532300848a5421cf961967</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Root Cause Information" display_value="Root Cause Information" name="x_307499_root_caus_root_cause_analysis" sys_domain="global" view="Default view">83ba32d8db132300848a5421cf961949</sys_ui_section>
             <sys_updated_by>rcheek2</sys_updated_by>
-            <sys_updated_on>2019-01-25 16:28:13</sys_updated_on>
+            <sys_updated_on>2019-01-25 16:51:48</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,13 +32,13 @@
             <element>cmdb_ci</element>
             <position>2</position>
             <sys_created_by>rcheek2</sys_created_by>
-            <sys_created_on>2019-01-25 16:28:13</sys_created_on>
-            <sys_id>5fddfa5cdb132300848a5421cf96192f</sys_id>
+            <sys_created_on>2019-01-25 16:51:48</sys_created_on>
+            <sys_id>24430390db532300848a5421cf961967</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Root Cause Information" display_value="Root Cause Information" name="x_307499_root_caus_root_cause_analysis" sys_domain="global" view="Default view">83ba32d8db132300848a5421cf961949</sys_ui_section>
             <sys_updated_by>rcheek2</sys_updated_by>
-            <sys_updated_on>2019-01-25 16:28:13</sys_updated_on>
+            <sys_updated_on>2019-01-25 16:51:48</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -46,13 +46,13 @@
             <element>u_incident_resolution</element>
             <position>3</position>
             <sys_created_by>rcheek2</sys_created_by>
-            <sys_created_on>2019-01-25 16:28:13</sys_created_on>
-            <sys_id>dfddfa5cdb132300848a5421cf96192f</sys_id>
+            <sys_created_on>2019-01-25 16:51:48</sys_created_on>
+            <sys_id>a4430390db532300848a5421cf961967</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Root Cause Information" display_value="Root Cause Information" name="x_307499_root_caus_root_cause_analysis" sys_domain="global" view="Default view">83ba32d8db132300848a5421cf961949</sys_ui_section>
             <sys_updated_by>rcheek2</sys_updated_by>
-            <sys_updated_on>2019-01-25 16:28:13</sys_updated_on>
+            <sys_updated_on>2019-01-25 16:51:48</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -60,13 +60,13 @@
             <element>description</element>
             <position>4</position>
             <sys_created_by>rcheek2</sys_created_by>
-            <sys_created_on>2019-01-25 16:28:13</sys_created_on>
-            <sys_id>53ddfa5cdb132300848a5421cf961930</sys_id>
+            <sys_created_on>2019-01-25 16:51:48</sys_created_on>
+            <sys_id>28430390db532300848a5421cf961967</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Root Cause Information" display_value="Root Cause Information" name="x_307499_root_caus_root_cause_analysis" sys_domain="global" view="Default view">83ba32d8db132300848a5421cf961949</sys_ui_section>
             <sys_updated_by>rcheek2</sys_updated_by>
-            <sys_updated_on>2019-01-25 16:28:13</sys_updated_on>
+            <sys_updated_on>2019-01-25 16:51:48</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -74,15 +74,29 @@
             <element>work_notes</element>
             <position>5</position>
             <sys_created_by>rcheek2</sys_created_by>
-            <sys_created_on>2019-01-25 16:28:13</sys_created_on>
-            <sys_id>d3ddfa5cdb132300848a5421cf961930</sys_id>
+            <sys_created_on>2019-01-25 16:51:48</sys_created_on>
+            <sys_id>a8430390db532300848a5421cf961967</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Root Cause Information" display_value="Root Cause Information" name="x_307499_root_caus_root_cause_analysis" sys_domain="global" view="Default view">83ba32d8db132300848a5421cf961949</sys_ui_section>
             <sys_updated_by>rcheek2</sys_updated_by>
-            <sys_updated_on>2019-01-25 16:28:13</sys_updated_on>
+            <sys_updated_on>2019-01-25 16:51:48</sys_updated_on>
             <sys_user/>
             <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>activity.xml</element>
+            <position>6</position>
+            <sys_created_by>rcheek2</sys_created_by>
+            <sys_created_on>2019-01-25 16:51:48</sys_created_on>
+            <sys_id>2c430390db532300848a5421cf961967</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="Activities (filtered)">444ea5c6bf310100e628555b3f0739d6</sys_ui_formatter>
+            <sys_ui_section caption="Root Cause Information" display_value="Root Cause Information" name="x_307499_root_caus_root_cause_analysis" sys_domain="global" view="Default view">83ba32d8db132300848a5421cf961949</sys_ui_section>
+            <sys_updated_by>rcheek2</sys_updated_by>
+            <sys_updated_on>2019-01-25 16:51:48</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
         </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption>Root Cause Information</caption>

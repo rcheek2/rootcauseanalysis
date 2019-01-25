@@ -4,7 +4,7 @@
         <array>false</array>
         <array_denormalized>false</array_denormalized>
         <attributes/>
-        <audit>false</audit>
+        <audit>true</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
 	// Add your code here
@@ -54,14 +54,14 @@
         <sys_created_by>rcheek2</sys_created_by>
         <sys_created_on>2019-01-25 15:42:33</sys_created_on>
         <sys_id>1263f614db132300848a5421cf9619ce</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>x_307499_root_caus_root_cause_analysis</sys_name>
         <sys_package display_value="Root Cause Analysis" source="x_307499_root_caus">b2b23ad0db132300848a5421cf961923</sys_package>
         <sys_policy/>
         <sys_scope display_value="Root Cause Analysis">b2b23ad0db132300848a5421cf961923</sys_scope>
         <sys_update_name>sys_dictionary_x_307499_root_caus_root_cause_analysis_null</sys_update_name>
         <sys_updated_by>rcheek2</sys_updated_by>
-        <sys_updated_on>2019-01-25 15:42:33</sys_updated_on>
+        <sys_updated_on>2019-01-25 16:51:48</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
