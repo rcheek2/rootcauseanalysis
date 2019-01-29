@@ -5,9 +5,7 @@
         <assessment/>
         <content_page/>
         <device_type/>
-        <filter table="x_307499_root_caus_root_cause_analysis">state=3^EQ<item endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="3"/>
-            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
-        </filter>
+        <filter/>
         <hint/>
         <homepage/>
         <image/>
@@ -16,28 +14,28 @@
         <mobile_title>Root Cause Analysis</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
         <name>x_307499_root_caus_root_cause_analysis</name>
-        <order>30</order>
+        <order>10</order>
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
         <roles>x_307499_root_caus.root_cause_analysis_user</roles>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>rcheek2</sys_created_by>
-        <sys_created_on>2019-01-25 15:42:32</sys_created_on>
+        <sys_created_on>2019-01-29 16:55:49</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>8a63f614db132300848a5421cf9619a3</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>Resolved</sys_name>
+        <sys_id>ba8a23e5db932300848a5421cf961927</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>All</sys_name>
         <sys_overrides/>
         <sys_package display_value="Root Cause Analysis" source="x_307499_root_caus">b2b23ad0db132300848a5421cf961923</sys_package>
         <sys_policy/>
         <sys_scope display_value="Root Cause Analysis">b2b23ad0db132300848a5421cf961923</sys_scope>
-        <sys_update_name>sys_app_module_8a63f614db132300848a5421cf9619a3</sys_update_name>
+        <sys_update_name>sys_app_module_ba8a23e5db932300848a5421cf961927</sys_update_name>
         <sys_updated_by>rcheek2</sys_updated_by>
-        <sys_updated_on>2019-01-29 16:55:30</sys_updated_on>
+        <sys_updated_on>2019-01-29 16:55:49</sys_updated_on>
         <timeline_page/>
-        <title>Resolved</title>
+        <title>All</title>
         <uncancelable>false</uncancelable>
         <view_name/>
         <window_name/>

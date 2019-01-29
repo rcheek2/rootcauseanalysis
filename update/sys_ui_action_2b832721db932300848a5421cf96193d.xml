@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="INSERT_OR_UPDATE">
+        <action_name>resolve</action_name>
+        <active>true</active>
+        <client>true</client>
+        <client_script_v2/>
+        <comments/>
+        <condition>current.state == 1</condition>
+        <form_action>true</form_action>
+        <form_button>true</form_button>
+        <form_button_v2>false</form_button_v2>
+        <form_context_menu>false</form_context_menu>
+        <form_link>false</form_link>
+        <form_menu_button_v2>false</form_menu_button_v2>
+        <form_style/>
+        <hint/>
+        <isolate_script>true</isolate_script>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <name>Resolve</name>
+        <onclick>resolveRCA()</onclick>
+        <order>100</order>
+        <script><![CDATA[function resolveRCA(){
+	//Set the 'Incident state' and 'State' values to 'Resolved', and display mandatory fields
+	g_form.setValue('state', 3);
+	if (g_form.getValue('u_issue_name') == '' || g_form.getValue('u_solution') == '' || g_form.getValue('u_steps_to_reproduce') == '') {
+		//Remove any existing field message, set comments mandatory, and show a new field message
+		try {g_form.hideFieldMsg('u_issue_name');
+			g_form.hideFieldMsg('u_solution');
+			g_form.hideFieldMsg('u_steps_to_reproduce');
+			
+		} catch(e) {}
+			
+			g_form.setMandatory('u_issue_name', true);
+			g_form.showFieldMsg('u_issue_name','Issue Name is required when resolving a Root Cause Analysis Case.','error');
+			g_form.setMandatory('u_solution', true);
+			g_form.showFieldMsg('u_solution','Solution is required when resolving a Root Cause Analysis Case.','error');
+			g_form.setMandatory('u_steps_to_reproduce', true);
+			g_form.showFieldMsg('u_steps_to_reproduce','Steps to Reproduce is required when resolving a Root Cause Analysis Case.','error');
+			return false;  //Abort submission
+		
+		}
+		//Call the UI Action and skip the 'onclick' function
+		gsftSubmit(null, g_form.getFormElement(), 'resolve'); //MUST call the 'Action name' set in this UI Action
+	}
+//Code that runs without 'onclick'
+//Ensure call to server-side function with no browser errors
+if (typeof window == 'undefined')
+   serverResolve();
+
+function serverResolve(){
+   current.state = 3;
+   current.update();
+}
+]]></script>
+        <show_insert>true</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>rcheek2</sys_created_by>
+        <sys_created_on>2019-01-29 16:26:37</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2b832721db932300848a5421cf96193d</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Resolve</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Root Cause Analysis" source="x_307499_root_caus">b2b23ad0db132300848a5421cf961923</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Root Cause Analysis">b2b23ad0db132300848a5421cf961923</sys_scope>
+        <sys_update_name>sys_ui_action_2b832721db932300848a5421cf96193d</sys_update_name>
+        <sys_updated_by>rcheek2</sys_updated_by>
+        <sys_updated_on>2019-01-29 16:44:11</sys_updated_on>
+        <table>x_307499_root_caus_root_cause_analysis</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+</record_update>

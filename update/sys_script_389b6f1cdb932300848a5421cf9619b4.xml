@@ -15,7 +15,9 @@
         <condition/>
         <description/>
         <execute_function>false</execute_function>
-        <filter_condition/>
+        <filter_condition table="x_307499_root_caus_root_cause_analysis">stateCHANGESTO3^EQ<item endquery="false" field="state" goto="false" newquery="false" operator="CHANGESTO" or="false" value="3"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
         <is_rest>false</is_rest>
         <message/>
         <name>Create Knowledge Article on RCA Close</name>
@@ -37,7 +39,7 @@
 	kbLookup.query();
 	if(kbLookup.next()){
 		
-		gs.addInfoMessage('KB Article Exists, updating exisiting article');
+		//gs.addInfoMessage('KB Article Exists, updating exisiting article');
 		existingArticle = 1;
 		
 	}
@@ -118,7 +120,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>389b6f1cdb932300848a5421cf9619b4</sys_id>
-        <sys_mod_count>34</sys_mod_count>
+        <sys_mod_count>36</sys_mod_count>
         <sys_name>Create Knowledge Article on RCA Close</sys_name>
         <sys_overrides/>
         <sys_package display_value="Root Cause Analysis" source="x_307499_root_caus">b2b23ad0db132300848a5421cf961923</sys_package>
@@ -126,7 +128,7 @@
         <sys_scope display_value="Root Cause Analysis">b2b23ad0db132300848a5421cf961923</sys_scope>
         <sys_update_name>sys_script_389b6f1cdb932300848a5421cf9619b4</sys_update_name>
         <sys_updated_by>rcheek2</sys_updated_by>
-        <sys_updated_on>2019-01-29 15:57:13</sys_updated_on>
+        <sys_updated_on>2019-01-29 16:52:32</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>
