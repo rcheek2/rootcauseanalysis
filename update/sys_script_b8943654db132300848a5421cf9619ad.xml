@@ -33,22 +33,55 @@
         <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
 	
 	// Add your code here
-	gs.addInfoMessage('RCA Ran');
-	gs.addErrorMessage('Assigned to ' + getDisplayValue(current.assigned_to));
-	var gr = new GlideRecord('x_307499_root_caus_root_cause_analysis');
-	gr.initialize();
-	gr.short_description = "Root Cause Analysis created from " + current.number + ".";
-	gr.description = current.description;
-	gr.cmdb_ci = current.getValue('cmdb_ci');
-	gr.business_service = current.getValue('business_service');
-	//gr.setValue('assinged_to', current.assinged_to.sys_id);
-	gr.assingment_group = current.assignment_group;
-	gr.work_notes = current.work_notes;
-	gr.u_initial_caller = current.caller_id;
-	gr.u_incident_resolution = current.close_notes;
-	gr.u_parent_incident = current.sys_id;
-	gr.insert();
-	gs.addInfoMessage("Root Caust Analysis opened under <a href = '/nav_to.do?uri=%2Fx_307499_root_caus_root_cause_analysis.do%3Fsys_id%" + gr.sys_id + "'>" + "gr.number" + "</a>");
+	var url;
+	var linkNumber;
+	//Check for existing case on record
+	var existingRecord;
+	var exRCA = new GlideRecord('x_307499_root_caus_root_cause_analysis');
+	exRCA.addQuery('u_parent_incident',current.sys_id);
+	exRCA.query();
+	while(exRCA.next()){
+		existingRecord = 1;
+	}
+	
+	if(existingRecord != 1){
+		
+		var gr = new GlideRecord('x_307499_root_caus_root_cause_analysis');
+		gr.initialize();
+		gr.short_description = "Root Cause Analysis created from " + current.number + ".";
+		gr.description = current.description;
+		gr.cmdb_ci = current.getValue('cmdb_ci');
+		gr.business_service = current.getValue('business_service');
+		gr.assigned_to = current.assigned_to.getDisplayValue();
+		gr.assingment_group = current.assignment_group;
+		gr.work_notes = current.work_notes;
+		gr.u_initial_caller = current.caller_id;
+		gr.u_incident_resolution = current.close_notes;
+		gr.u_parent_incident = current.sys_id;
+		gr.insert();
+		
+		var rec = new GlideRecord('x_307499_root_caus_root_cause_analysis');
+		rec.addQuery('u_parent_incident',current.sys_id);
+		rec.query();
+		while(rec.next()){
+			linkNumber = rec.sys_id;
+			url = "/x_307499_root_caus_root_cause_analysis.do?sys_id=" + linkNumber;
+			gs.addInfoMessage("Root cause analysis ticket opened, please visit <a href = '" + url + "'>here.</a>");
+		}
+	}
+	
+	else{
+		
+		var elseRec = new GlideRecord('x_307499_root_caus_root_cause_analysis');
+		elseRec.addQuery('u_parent_incident',current.sys_id);
+		elseRec.query();
+		while(elseRec.next()){
+			linkNumber = elseRec.sys_id;
+			url = "/x_307499_root_caus_root_cause_analysis.do?sys_id=" + linkNumber;
+			gs.addInfoMessage("Root cause analysis ticket alredy opened, please visit the existing record <a href = '" + url + "'>here.</a>");
+		}
+		
+	}
 	
 })(current, current);]]></script>
         <sys_class_name>sys_script</sys_class_name>
@@ -57,7 +90,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>b8943654db132300848a5421cf9619ad</sys_id>
-        <sys_mod_count>21</sys_mod_count>
+        <sys_mod_count>35</sys_mod_count>
         <sys_name>Migrate to RCA Task after Resolve</sys_name>
         <sys_overrides/>
         <sys_package display_value="Root Cause Analysis" source="x_307499_root_caus">b2b23ad0db132300848a5421cf961923</sys_package>
@@ -65,7 +98,7 @@
         <sys_scope display_value="Root Cause Analysis">b2b23ad0db132300848a5421cf961923</sys_scope>
         <sys_update_name>sys_script_b8943654db132300848a5421cf9619ad</sys_update_name>
         <sys_updated_by>rcheek2</sys_updated_by>
-        <sys_updated_on>2019-01-25 16:59:03</sys_updated_on>
+        <sys_updated_on>2019-01-25 19:41:18</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>
