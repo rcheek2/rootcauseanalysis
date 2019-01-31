@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element audit="true" extends="task" label="Root Cause Analysis" max_length="40" name="x_307499_root_caus_root_cause_analysis" sizeclass="18" type="collection">
+    <element audit="true" extends="task" label="Root Cause Analysis" max_length="40" name="x_307499_root_caus_root_cause_analysis" sizeclass="3" type="collection">
         <element attributes="edge_encryption_enabled=true" label="Incident Resolution" max_length="1000" name="u_incident_resolution" read_only="true" type="string"/>
         <element label="Initial Caller" max_length="32" name="u_initial_caller" read_only="true" reference="sys_user" type="reference"/>
         <element label="Issue Name" max_length="100" name="u_issue_name" type="string"/>

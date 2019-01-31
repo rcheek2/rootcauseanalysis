@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="gsw_change_log">
+    <gsw_change_log action="INSERT_OR_UPDATE">
+        <change_date>2019-01-29 19:15:48</change_date>
+        <changed_by display_value="Rich Cheek">4d10cce9db036300848a5421cf961918</changed_by>
+        <content display_value="New Record Menu">cc9b096fdb081300c47f5f135e9619cb</content>
+        <related_change_log_entry/>
+        <related_task_entry/>
+        <sys_class_name>gsw_change_log</sys_class_name>
+        <sys_created_by>rcheek2</sys_created_by>
+        <sys_created_on>2019-01-29 19:15:48</sys_created_on>
+        <sys_id>899a4cb1db172300848a5421cf9619a8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>2019-01-29 19:15:48</sys_name>
+        <sys_package display_value="Root Cause Analysis" source="x_307499_root_caus">b2b23ad0db132300848a5421cf961923</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Root Cause Analysis">b2b23ad0db132300848a5421cf961923</sys_scope>
+        <sys_update_name>gsw_change_log_899a4cb1db172300848a5421cf9619a8</sys_update_name>
+        <sys_updated_by>rcheek2</sys_updated_by>
+        <sys_updated_on>2019-01-29 19:15:48</sys_updated_on>
+        <type>4</type>
+    </gsw_change_log>
+</record_update>
